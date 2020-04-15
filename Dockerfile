@@ -1,4 +1,4 @@
-FROM openshift/origin-release:golang-1.10 as build
+FROM openshift/origin-release:golang-1.13 as build
 
 COPY . /go/src/github.com/square/ghostunnel
 
