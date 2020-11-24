@@ -1,5 +1,7 @@
 module github.com/square/ghostunnel
 
+go 1.15
+
 require (
 	github.com/Masterminds/sprig v2.17.1+incompatible // indirect
 	github.com/aokoli/goutils v1.1.0 // indirect
